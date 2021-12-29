@@ -3,7 +3,7 @@ const router = express.Router();
 
 const { controllerWrapper, validation} = require("../../middlewares");
 const { contactsControllers } = require("../../controllers");
-const { joiSchema, updateActiveJoiSchema } = require("../../models/contact");
+const { joiSchema, updateActiveJoiSchema } = require("../../models/contacts");
 
 
 
